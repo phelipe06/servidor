@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/bin/dash
 # Desenvolvido por @phellipe_011
-
+clear
+ echo
+    echo
 atualizar='\033[1;32m'
 echo "$atualizar Atualizando repositório..."
 apt update && upgrade -y
@@ -14,11 +16,13 @@ echo " @phellipe_011"
   echo
     echo
 screenfetch                                                      echo -e
- echo -e
+ echo
+setterm --foreground "red"
 echo "Deseja instalar o Ngrok? [Y/n]"
 read opcao
 case $opcao in
 y)
+setterm --foreground "white"
 echo
 echo "Downloading Termux-ngrok..."
 case `dpkg --print-architecture` in
