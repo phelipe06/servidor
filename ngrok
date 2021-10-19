@@ -15,7 +15,8 @@ pkg install screenfetch -y
 echo " @phellipe_011"
   echo
     echo
-screenfetch                                                      echo -e
+screenfetch                                                   
+ echo
  echo
 setterm --foreground "red"
 echo "Deseja instalar o Ngrok? [Y/n]"
